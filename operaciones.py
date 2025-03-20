@@ -7,8 +7,12 @@ def suma(a: int, b: int) -> int:
 def resta(a: int, b: int) -> int:
     if a is None or b is None:
         return None
+<<<<<<< HEAD
     return a - b
 
+=======
+    return a - b   
+>>>>>>> 4454f3238f68c5b63bf12237576f4f3679f3eabc
 
 def menu():
     while True:
@@ -26,7 +30,10 @@ def menu():
                 print(f"El resultado de la suma es: {resultado}")
             except ValueError:
                 print("Error: Ingrese solo números enteros.")
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4454f3238f68c5b63bf12237576f4f3679f3eabc
         if opcion == "2":
             try:
                 a = int(input("Ingrese el primer número: "))
@@ -34,8 +41,13 @@ def menu():
                 resultado = resta(a, b)
                 print(f"El resultado de la resta es: {resultado}")
             except ValueError:
+<<<<<<< HEAD
                 print("Error: Se a generado un error, vuelva a intentarlo.")
 
+=======
+                print("Error: Ingrese solo números enteros.")   
+        
+>>>>>>> 4454f3238f68c5b63bf12237576f4f3679f3eabc
         elif opcion == "3":
             print("Saliendo del programa...")
             break
