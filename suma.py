@@ -10,3 +10,5 @@ if __name__ == "__main__":
     num2 = float(input("Ingresa el segundo número: "))
     resultado = suma(num1, num2)
     print(f"La suma de {num1} y {num2} es: {resultado}")
+#Alexey Amel Veliz Gabriel    
+
